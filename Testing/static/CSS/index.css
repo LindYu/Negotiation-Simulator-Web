@@ -1,0 +1,23 @@
+a:link, a:visited {
+	font-family: arial;
+}
+ 
+ 
+head, body{
+font-family: arial;
+padding-top: 30px; 
+}
+
+th{
+font-size:18px;
+padding-top:10px;
+}
+
+col: nth-child(odd){
+background:red;
+}
+col: nth-child(even){
+background:green;
+}
+
+ 
