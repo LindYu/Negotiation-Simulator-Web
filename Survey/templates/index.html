@@ -1,0 +1,28 @@
+<!-- Survey/templates/index.html -->
+<!DOCTYPE html>
+
+<html>
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'CSS/index.css' %}" />
+    <head>
+        <meta charset="utf-8">
+        <title>Negotiation</title>
+		<form action=" " method="post" id = "introForm">
+{{introForm.as_p}}
+	
+</form>	
+    </head>
+	<body>
+	<h1> Welcome to JRE420 negotiation exercise page</h1>
+	<p>This interactive survey imitates the negotiation process dealers/managers go through, use the knowledge learned 
+	   class to achieve the optimized solution with the negotiator.</p>
+<a href = "/vote/">Start the Survey</a>
+  
+</body>
+ 
+	
+	<!--<p> Explore the variety of offer you can get in  <a href="/explore/">Exploration Mode</a></p>-->
+	<img src="https://fi.ge.pgstatic.net/articles/processed/1419589633.f406f8865e4249cb9c9d9b3efee4117c.jpg" alt = negofish style="position: relative; left: 40px; bottom: -20px;width:450px;height:300px;">
+	<img src="https://pbs.twimg.com/media/BgSxLyICQAAbGFi.png" alt = negotiator style="position: relative; left: 175px; bottom: -30px;width:400px;height:400px;" >
+    </body>
+</html>

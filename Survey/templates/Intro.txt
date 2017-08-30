@@ -1,0 +1,5 @@
+<!-- Survey/templates/index.html -->
+<!DOCTYPE html>
+
+<html>
+{% load staticfiles %}

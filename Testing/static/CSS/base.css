@@ -1,0 +1,97 @@
+h1,h2,p{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+h2{
+font: Times;
+color: rgb(0,64,91);
+}
+
+.head_div{
+    background-color: rgb(209,241,255);
+  	margin:0 15px;
+    width: 1300px;
+    height: 60px;    
+	border-width:1px;
+    border-style:solid;
+	border-color: rbg(186,227,244);
+    box-sizing: border-box;
+}
+.instr_div{
+	margin:0 15px;
+    width: 1300px;
+    height: 80px;    
+    padding: 10px;
+	border-width:1px;
+    border-style:solid;
+	border-color: rbg(186,227,244);
+    box-sizing: border-box;
+}
+
+table {
+	border-color:light-gray;
+	border-style:thin solid;
+    font-family: Arial, Helvetica, sans-serif;
+	border-spacing: 3px 0px;
+	padding-left:30px;
+	padding-right:30px;
+    width: 200%;
+}
+
+
+thead th{
+	font-size: 15px;
+	padding: 14px;
+}
+ 
+tbody td {
+	font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+
+tbody th{
+	background-color: white;
+	font-style: italic;
+	padding-top: 20px;
+	text-align: left;
+}
+
+
+label{
+	font-family:arial, sans-serif;
+	margin-left: 230px;
+	margin-right: 15px;
+	font-style: bold;
+}
+
+p{
+bolder =  5px solid red;
+}
+
+
+input[type = submit]{
+	overflow:hidden;
+	margin-top:15px;
+	margin-bottom: 20px;
+	line-height:25px;
+    border-radius: 5px;
+    border: 0;
+    width:  80px;
+    height: 30px;
+    font-family: arial;
+	font-size: 17px;
+    background: #bed4f7;
+	margin-right: 20px;
+}
+
+a:link, a:visited {
+	font-family: arial;
+	font-size: 15px;
+    padding: 14px 25px;
+	display:table-row-group;
+   
+}
+
